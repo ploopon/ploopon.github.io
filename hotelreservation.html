@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservation</title>
+</head>
+<body>
+    <center><h1>Hotel Reservation</h1></center>
+
+    <center><p><strong>Reservation Details</strong></p></center>
+
+    <center><form>
+        <table border="1">
+            <tr>
+                <th>
+                    Title
+                </th>
+                <th colspan="2">
+                    </colspan><label for="First Name"> First Name *</label>
+                </th>
+                <th colspan="2">
+                    <label for="Last Name"> Last Name *</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <select>
+                        <option>Mister</option>
+                        <option>Miss</option>
+                        <option>Miss sis</option>
+                    </select>
+                </td>
+                <td colspan="2">
+                    <input type="text"id="First Name"name="First-Name"size="20" maxlength="50"required>
+                </td>
+                <td colspan="2">
+                    <input type="text"id="Last Name"name="Last-Name"size="20" maxlength="50"required>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <label for="Address 1"> Address 1 *</label>
+                </th>
+                <th colspan="2">
+                    <label for="Address 1">  Address 2 *</label>
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text"id="Address 1"name="Address-1"size="20" maxlength="50"required>
+                </td>
+                <td colspan="2">
+                    <input type="text"id="Address 2"name="Address-2"size="20" maxlength="50"required>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="State"> State *</label>
+                </th>
+                <th>
+                    <label for="City"> City *</label>
+                </th>
+                <th colspan="2">
+                    <label for="Zip Code"> Zip Code *</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text"id="State"name="State"size="20" maxlength="50"required>
+                </td>
+                <td>
+                    <input type="text"id="City"name="City"size="10" maxlength="50"required>
+                </td>
+                <td colspan="2">
+                    <input type="text"id="Zip Code"name="Zip-Code"size="4.5" maxlength="50"required>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">
+                    <label for="Phone Number"> Phone Number *</label>
+                </th>
+                <th colspan="2">
+                    <label for="Email">Email Address *</label>
+                </th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="number"id="Phone Number"name="Phone-Number"size="20" maxlength="50"required>
+                </td>
+                <td colspan="2">
+                    <input type="email"id="Email Address"name="Email-Address"size="20" maxlength="50"required>
+                </td>    
+            </tr>
+            <tr>
+                <th>
+                    <label for="Check-In Date"> Check-In Date*</label>
+                </th>
+                <th>
+                    <label for="Check-In Time"> Check-In Time*</label>
+                </th>
+                <th>
+                    <label for="Check-Out Date">Check-Out Date*</label>
+                </th>
+                <th>
+                    <label for="Check-Out Time">Check-Out Time*</label>
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <input type="date"id="Check-In Date"name="Check--In-Date"size="5" maxlength="50"required>
+                </td>
+                <td>
+                    <input type="time"id="Check-In Time"name="Check--In-Time"size="4" maxlength="50"required>
+                </td>
+                <td>
+                    <input type="date"id="Check-Out Date"name="Check--Out-Date"size="5" maxlength="50"required>
+                </td>
+                <td>
+                    <input type="time"id="Check-Out Time"name="Check--Out-Time"size="4" maxlength="50"required>
+                </td>
+            </tr>
+            <tr>
+                <th colspan="2">Room Preference*</th>
+                <th>Number of Adult</th>
+                <th>Number of Children</th>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="radio"id="room-standard"name="user-room" value="standard" checked>
+                    <label for="room-standard">standard</label>
+                    <input type="radio"id="room-deluxe"name="user-room" value="deluxe" checked>
+                    <label for="room-deluxe">deluxe</label>
+                    <input type="radio"id="room-suite"name="user-room" value="suite" checked>
+                    <label for="room-suite">suite</label>
+                </td>
+                <td>
+                    <select>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </td>
+                <td>
+                    <select>
+                        <option>0</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="reset">
+                    <input type="submit">
+                </td>
+            </tr>
+        </table>
+    </form>
+    </center>
+</body>
+</html>
